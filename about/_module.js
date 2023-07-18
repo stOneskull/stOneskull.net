@@ -6053,6 +6053,9 @@ function create_fragment$9(ctx) {
 					{ "link": { "url": "/", "label": "Why" } },
 					{
 						"link": { "url": "/", "label": "Pricing" }
+					},
+					{
+						"link": { "url": "/video", "label": "video" }
 					}
 				],
 				cta: [
