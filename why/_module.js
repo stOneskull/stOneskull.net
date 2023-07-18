@@ -4765,12 +4765,7 @@ function create_fragment$6(ctx) {
 	let footer;
 	let div0;
 	let nav;
-	let t0;
-	let span;
-	let a;
-	let t1;
-	let t2;
-	let t3;
+	let t;
 	let ul;
 	let current;
 	let each_value_1 = /*footer_nav*/ ctx[0];
@@ -4802,12 +4797,7 @@ function create_fragment$6(ctx) {
 				each_blocks_1[i].c();
 			}
 
-			t0 = space();
-			span = element("span");
-			a = element("a");
-			t1 = text("Primo");
-			t2 = text(" Powered");
-			t3 = space();
+			t = space();
 			ul = element("ul");
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -4831,16 +4821,7 @@ function create_fragment$6(ctx) {
 			}
 
 			nav_nodes.forEach(detach);
-			t0 = claim_space(div0_nodes);
-			span = claim_element(div0_nodes, "SPAN", { class: true });
-			var span_nodes = children(span);
-			a = claim_element(span_nodes, "A", { href: true, class: true });
-			var a_nodes = children(a);
-			t1 = claim_text(a_nodes, "Primo");
-			a_nodes.forEach(detach);
-			t2 = claim_text(span_nodes, " Powered");
-			span_nodes.forEach(detach);
-			t3 = claim_space(div0_nodes);
+			t = claim_space(div0_nodes);
 			ul = claim_element(div0_nodes, "UL", { class: true });
 			var ul_nodes = children(ul);
 
@@ -4856,9 +4837,6 @@ function create_fragment$6(ctx) {
 		},
 		h() {
 			attr(nav, "class", "svelte-5m5swo");
-			attr(a, "href", "https://primo.so");
-			attr(a, "class", "svelte-5m5swo");
-			attr(span, "class", "primo svelte-5m5swo");
 			attr(ul, "class", "svelte-5m5swo");
 			attr(div0, "class", "section-container svelte-5m5swo");
 			attr(footer, "class", "svelte-5m5swo");
@@ -4877,12 +4855,7 @@ function create_fragment$6(ctx) {
 				}
 			}
 
-			append_hydration(div0, t0);
-			append_hydration(div0, span);
-			append_hydration(span, a);
-			append_hydration(a, t1);
-			append_hydration(span, t2);
-			append_hydration(div0, t3);
+			append_hydration(div0, t);
 			append_hydration(div0, ul);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -5032,9 +5005,9 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				}
 			}
 		});
@@ -5043,19 +5016,19 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				logo: {
-					"title": "stOneskull.net",
+					"size": "8",
 					"image": {
 						"alt": "",
 						"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
 						"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
 						"size": 95
 					},
-					"size": "8"
+					"title": "stOneskull.net"
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "About" } },
@@ -5079,9 +5052,9 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				heading: "\nWhy Cali\n",
 				subheading: "We're pioneering in the calendar scheduling world. We're way ahead of the game and we want to help make you more productive.",
@@ -5100,9 +5073,9 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				content: {
 					"html": "<h1>Our track record</h1><p>For decades we've been scheduling meetings the old fashioned way. with email. It's an endless back and forth that can happen over the span of days just to schedule a simple 20-minute call with someone. Now, you can automate these processes in one simple app. We're the first to offer an open source version of a modern calendar software.</p><p>Our calendar software company is better than others because we offer a user-friendly and intuitive interface that makes it easy for people to manage their schedules. Our software is designed to be clear and simple to use, so that anyone can quickly add and view events, <em>set reminders</em>, and invite others for events.</p><p>We also offer a variety of views, including daily, weekly, and monthly, so that users can view their schedules in the way that <em>makes the most sense to them.</em></p><h2>Cali vs. other scheduling software</h2><p>What really sets our calendar software apart is its powerful search functionality. With just a few keystrokes, users can quickly find and manage their events, making it easy to stay organized and on top of their schedules. This is a level of convenience and efficiency that simply can't be found in other scheduling tools.</p><h1>heading 1</h1><p>Overall, our calendar software is the <em>perfect tool</em> for managing your time and staying organized. With its user-friendly interface and powerful search functionality, it's the ideal solution for anyone looking to take control of their schedule and make the most of their time.</p><h2>heading 2</h2><p>Additionally, our software integrates seamlessly with <mark>popular email services,</mark> so that users can easily invite others and receive updates about events.</p><h3>heading 3</h3><p>Try it out today and see the difference for yourself. Overall, our calendar software is a comprehensive and effective tool for managing your time.</p><blockquote><p>Some interesting quote info</p></blockquote>",
@@ -5115,9 +5088,9 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				heading: "We're moving fast, signup for updates and more.",
 				form: {
@@ -5144,9 +5117,9 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				footer_nav: [
 					{
@@ -5186,9 +5159,9 @@ function create_fragment$7(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				}
 			}
 		});

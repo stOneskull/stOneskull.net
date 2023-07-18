@@ -5602,12 +5602,7 @@ function create_fragment$8(ctx) {
 	let footer;
 	let div0;
 	let nav;
-	let t0;
-	let span;
-	let a;
-	let t1;
-	let t2;
-	let t3;
+	let t_1;
 	let ul;
 	let current;
 	let each_value_1 = /*footer_nav*/ ctx[0];
@@ -5639,12 +5634,7 @@ function create_fragment$8(ctx) {
 				each_blocks_1[i].c();
 			}
 
-			t0 = space();
-			span = element("span");
-			a = element("a");
-			t1 = text("Primo");
-			t2 = text(" Powered");
-			t3 = space();
+			t_1 = space();
 			ul = element("ul");
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -5668,16 +5658,7 @@ function create_fragment$8(ctx) {
 			}
 
 			nav_nodes.forEach(detach);
-			t0 = claim_space(div0_nodes);
-			span = claim_element(div0_nodes, "SPAN", { class: true });
-			var span_nodes = children(span);
-			a = claim_element(span_nodes, "A", { href: true, class: true });
-			var a_nodes = children(a);
-			t1 = claim_text(a_nodes, "Primo");
-			a_nodes.forEach(detach);
-			t2 = claim_text(span_nodes, " Powered");
-			span_nodes.forEach(detach);
-			t3 = claim_space(div0_nodes);
+			t_1 = claim_space(div0_nodes);
 			ul = claim_element(div0_nodes, "UL", { class: true });
 			var ul_nodes = children(ul);
 
@@ -5693,9 +5674,6 @@ function create_fragment$8(ctx) {
 		},
 		h() {
 			attr(nav, "class", "svelte-5m5swo");
-			attr(a, "href", "https://primo.so");
-			attr(a, "class", "svelte-5m5swo");
-			attr(span, "class", "primo svelte-5m5swo");
 			attr(ul, "class", "svelte-5m5swo");
 			attr(div0, "class", "section-container svelte-5m5swo");
 			attr(footer, "class", "svelte-5m5swo");
@@ -5714,12 +5692,7 @@ function create_fragment$8(ctx) {
 				}
 			}
 
-			append_hydration(div0, t0);
-			append_hydration(div0, span);
-			append_hydration(span, a);
-			append_hydration(a, t1);
-			append_hydration(span, t2);
-			append_hydration(div0, t3);
+			append_hydration(div0, t_1);
 			append_hydration(div0, ul);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -6015,9 +5988,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6042,9 +6015,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6063,14 +6036,14 @@ function create_fragment$9(ctx) {
 				descriptio: "Deserunt aliquip est",
 				description: "We're passionate about building a better meeting workflow",
 				logo: {
-					"title": "stOneskull.net",
+					"size": "8",
 					"image": {
 						"alt": "",
 						"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
 						"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
 						"size": 95
 					},
-					"size": "8"
+					"title": "stOneskull.net"
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "About" } },
@@ -6094,9 +6067,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6131,9 +6104,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6164,9 +6137,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6202,9 +6175,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6229,9 +6202,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6281,9 +6254,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
@@ -6339,9 +6312,9 @@ function create_fragment$9(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"src": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"url": "https://res.cloudinary.com/primoaf/image/upload/v1659676914/favicon_roaxv0.png",
-					"size": null
+					"src": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"url": "https://ogfrjxqovwgsdzubizan.supabase.co/storage/v1/object/public/images/54a10a62-e4b2-4c31-9296-eb06969c2dc5/1578802966000EW_SkullIcon-256xx.1.png",
+					"size": 95
 				},
 				d: "Deserunt aliquip est",
 				t: "Sint incididunt culpa",
