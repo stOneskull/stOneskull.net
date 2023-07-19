@@ -6836,21 +6836,35 @@ function create_fragment$b(ctx) {
 					{
 						"icon": "mdi:twitter",
 						"link": {
-							"url": "https://twitter.com",
+							"url": "https://twitter.com/stOneskull",
 							"label": "Twitter"
 						}
 					},
 					{
-						"icon": "mdi:facebook",
+						"icon": "mdi:mastodon",
 						"link": {
-							"url": "https://facebook.com",
-							"label": "Facebook"
+							"url": "https://fostodon.org/@stOneskull",
+							"label": "mastodon"
+						}
+					},
+					{
+						"icon": "mdi:reddit",
+						"link": {
+							"url": "https://reddit.com/u/stOneskull",
+							"label": "reddit"
+						}
+					},
+					{
+						"icon": "mdi:language-python",
+						"link": {
+							"url": "https://programming.dev/u/stOneskull",
+							"label": "lemmy"
 						}
 					},
 					{
 						"icon": "mdi:github",
 						"link": {
-							"url": "https://github.com",
+							"url": "https://github.com/stOneskull",
 							"label": "Github"
 						}
 					}
